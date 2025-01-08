@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Level Organization Chart</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <caption><strong>Company's Organization Hierarchy</strong></caption>
+        <thead>
+            <tr>
+                <th>Department Name</th>
+                <th>Manager</th>
+                <th>Number of Employees</th>
+                <th>Department's Budget</th>
+                <th>Total Company Budget</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: aliceblue;">
+                <td rowspan="3">HR</td>
+                <td>Shreyas</td>
+                <td rowspan="3">3</td>
+                <td rowspan="3">100000</td>
+                <td rowspan="3">15.38%</td>
+            </tr>
+            <tr style="background-color: aliceblue;"><td>Priyanka</td></tr>
+            <tr style="background-color: aliceblue;"><td>Renu</td></tr>
+            <tr style="background-color: rgb(179, 211, 240);">
+                <td rowspan="2">Engineering</td>
+                <td>Joshua</td>
+                <td rowspan="2">2</td>
+                <td rowspan="2">500000</td>
+                <td rowspan="2">76.92%</td>
+            </tr>
+            <tr style="background-color: rgb(179, 211, 240);"><td>Jacob</td></tr>
+            <tr style="background-color: rgb(136, 186, 233);">
+                <td rowspan="5">Marketing</td>
+                <td>Roshan</td>
+                <td rowspan="5">5</td>
+                <td rowspan="5">50000</td>
+                <td rowspan="5">7.69%</td>
+            </tr>
+            <tr style="background-color: rgb(136, 186, 233);"><td>Rahul</td></tr>
+            <tr style="background-color: rgb(136, 186, 233);"><td>Shreya</td></tr>
+            <tr style="background-color: rgb(136, 186, 233);"><td>Sharmi</td></tr>
+            <tr style="background-color: rgb(136, 186, 233);"><td>Rofina</td></tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: right;"><strong>Total Company Budget</strong></td>
+                <td>650000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
